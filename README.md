@@ -1,2 +1,3 @@
-# aliceandbob_yquantum26challenge
-A&amp;B x YQuantum 2026 Challenge Development Repo 
+# Alice & Bob x YQuantum 2026 Challenge
+
+Challenge materials are in `challenge/`.
