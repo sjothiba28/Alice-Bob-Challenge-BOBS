@@ -49,6 +49,10 @@ Prepare a **5-minute presentation** followed by a **2-minute Q&A** with judges. 
 
 Optionally, add your slides to your team folder after presenting so they persist in the main branch for others to reference.
 
+### 3. Devpost submission
+
+Please follow the organizers' instructions to submit your project to this Devpost hackathon: [https://yquantum2026.devpost.com/](https://yquantum2026.devpost.com/). 
+
 ---
 
 # Support
