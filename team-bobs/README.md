@@ -46,3 +46,6 @@ The optimized controller successfully maintains a bias ratio $>100$ even under s
 ---
 **Team BOBS**
 *Quantum Control & Machine Learning*
+
+**Slide Show**
+https://docs.google.com/presentation/d/1hzKO0FUQ8FnlWalzt8DRbu-AxPX3RoWvHRRT6qh_zUo/edit?usp=sharing
