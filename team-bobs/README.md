@@ -17,7 +17,9 @@ Stabilizing cat qubits requires solving the Lindblad master equation over long t
 *   **2-Point Fast Lifetime Fit**: To avoid expensive full-decay curve analysis, we implemented a robust 2-point exponential fitting method to estimate $T_X$ and $T_Z$ in a single forward pass.
 
 ### 2. Global Optimization (CMA-ES)
-We utilized the **Separable CMA-ES (Sep-CMA)** algorithm to locate the optimal control parameters ($g_2$, $\epsilon_d$) for steady-state operation. This provided a baseline for the maximum achievable bias in static conditions.
+*   We utilized the **Separable CMA-ES (Sep-CMA)** algorithm to locate the optimal control parameters ($g_2$, $\epsilon_d$) for steady-state operation. This provided a baseline for the maximum achievable bias in static conditions.
+*   Implemented a reward function to guide optimization
+*   Reward function tested with a reliable and costly method (exponential fit fot T_x and T_z) to ensure reasonable parameters can be achived (RL_Loss_Function_Test.ipynb).
 
 ### 3. Online Drift Compensation (PPO Reinforcement Learning)
 To address time-varying drift (e.g., changes in drive amplitude or phase), we developed a **Proximal Policy Optimization (PPO)** agent using `Stable-Baselines3`:
